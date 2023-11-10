@@ -1,0 +1,113 @@
+.capcalera  {/*Obrim l'encapçalat de la pagina*/
+    text-align: top;/*Alineem el text de l'encapçalat adalt*/
+    font-style: bold;/*Posem la lletra negreta*/
+    background-color: rgb(43, 48, 48);/*posem un color de fons al header, que en aquest cas sera el negre fosc*/
+    font-family: Arial, Helvetica, sans-serif;/*Apliquem una font per canviar l'estil de la ll*/
+    width: 100vw;/*Posem 100vw a l'amplada de la pagina per a que ocupi tota la pagina d'amplada el header*/ 	
+    height: 135px;/*Li donem una alçada de 135px a l'encapḉalat*/
+    color: white;/*Color blanc a la lletra*/
+    padding-top: 18px;/*El movem 18px cap avall*/
+}
+
+body{
+    margin: 0px;/*Posem 0px de margin i de padding per a tenir tot l'espai de la pagina lliure i que no estigui reservat per cap element*/
+    padding: 0px;/*Posem 0px de margin i de padding per a tenir tot l'espai de la pagina lliure i que no estigui reservat per cap element*/
+}
+
+#titol{
+    text-align: center;/*Alineem el text del titol al centre*/
+    margin-top: 18px;/*Deixem marge a sobre del titol de 18px*/
+}
+
+.barra1{
+    
+    margin-left: 9px;/*Deixem marge de 9px a l'esquerra entre els links del header*/
+}
+
+.barra2{
+    
+    margin-left: 1px;/*Deixem marge de 1px a l'esquerra entre els links del header*/
+}
+.nav1{
+    text-align: center;/*Alineem el text al centre del nav*/
+    position: sticky;/*Apliquem una posicio sticky al navv*/
+}
+
+.articlesection1 {/*Obrim el primer section*/
+    text-align: top;/*Alineem la lletra del section adalt*/
+    font-style: bold;/*Li donem un estil a la lletra de negreta*/
+    background-color: rgb(230, 230, 230);/*Posem color blanc de fons*/
+    width:auto; /*Li posem amplada automatica i 250px d'alçada*/
+    height: 250px;
+    padding-top: -18px;/*Li fem -18 per a que puji 18px en comptes de baixar*/
+    padding-left: 20px;/*El movem 20px a la dreta*/  
+}
+ 
+.foto{/*posem la primera foto*/
+padding-top: 10px;/*Movem la foto 10px avall*/
+width: 210px;/*Li donem una amplada de 210px*/
+
+}
+.fotoo{/*Posem la segona foto*/
+    padding-top: 10px;/*Movem la foto 10px avall*/
+    width: 200px;/*Li donem una amplada de 200px*/
+}
+
+.cuadrat1 {/*Obrim el div de la pagina */
+    background-color: rgb(255, 255, 255);/*Posem color blanc de fons*/  
+    padding-left: 25px;/*El movem 25px a la dreta*/
+    padding-right: 25px;/*I 25px a l'esquerra*/
+}
+
+.section1article {/*Obrim el section 1*/
+    padding-top: 30px;/*El movem 30px cap avall*/
+    font-style: bold;/*Posem la lletra negreta al section1*/
+}
+
+.articlesection2 {/*Obrim el segon section*/
+    text-align: top;/*Alineem el text adalt del section*/
+    font-style: bold; /*Posem la lletra negreta al section1*/
+    background-color: rgb(230, 230, 230); /*color blanc de fons*/
+    width:auto; /*Amplada automatica*/
+    height: 250px; /*250px d'alçada*/
+    padding-top: -18px;/*El movem 18px adalt*/
+    padding-left: 20px;/*Movem 20px a la dreta*/
+}   
+
+.section2article {
+    padding-top: 30px;/*El baixem 30px avall*/
+    font-style: bold;/*Lletra en negreta*/
+}
+
+.articlesection3 {
+    text-align: top;/*Alineem el text adalt del section*/
+    font-style: bold; /*Posem la lletra negreta al section1*/
+    background-color: rgb(230, 230, 230); /*color blanc de fons*/
+    width:auto; /*Amplada automatica*/
+    height: 250px; /*250px d'alçada*/
+    padding-top: -18px;/*El movem 18px adalt*/
+    padding-left: 20px;/*Movem 20px a la dreta*/
+}    
+
+.section3article {
+    padding-top: 30px;/*El baixem 30px avall*/
+    font-style: bold;/*Lletra en negreta*/
+}
+
+.footer {
+   
+    height: 40px;/*Alçada de 40px al footer*/
+    background-color: rgb(43, 48, 48);/*Color negre fosc de fons*/
+    padding: 0px;/*Posem 0px per a tenir espai lliure a tots costats */
+    	
+}
+
+.paragraf {/*Obrim l'ultim div*/
+    color: white;/*Color blanc a la lletra */
+    text-align: center;/*Alineem la lletra al mig del footer*/
+    padding-top: 20px;/*Movem cap avall 20px*/
+    width:100vw; /*Amplada sencera del footer*/
+    padding-bottom: 25px;/*el pujem 25 px adalt*/
+    line-height: 40px;/*Establim 40px d'alçada a una casella remarcada per lineas*/
+
+}
